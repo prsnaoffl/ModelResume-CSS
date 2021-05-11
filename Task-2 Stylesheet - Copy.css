@@ -1,0 +1,201 @@
+
+.class1{
+    background: linear-gradient(
+        to bottom,
+        rgb(70, 68, 65)20%,
+        rgb(87, 85, 82)50%,
+        rgb(122, 121, 122)100%
+    );
+
+    padding: 50px 200px ;
+    width: 500px;
+    position :absolute;
+    left: 225px;
+    top:3px;
+    height:105px;
+}
+
+ img{
+     border-radius: 50%;
+     width: 150px;
+     height: 135px; 
+     border: 3px dotted red; 
+     position: relative;
+     left: 165px;
+     bottom:40px;     
+ }   
+
+ .class2> table td{
+    position :absolute;
+    left: 0px;
+    top:160px;
+    background-color:rgb(233, 227, 227);
+    width: 898px ;
+    height:20px;   
+} 
+
+ div{
+  
+    display: flex ;
+    flex-direction: column; 
+ }
+
+hr{
+    position :relative;
+    width: 900px;
+    left:0px;
+    top:225px;    
+   
+}
+
+.class3 span{
+    background-color:orange;
+    padding: 10px 10px ;
+    width:700;
+    position :absolute;
+    right:340px;
+    top:140px; 
+    border-radius: 7px;
+} 
+ 
+pre{
+    position :absolute;
+    left:150px;
+    top:200px; 
+} 
+
+.class4 {
+   width: 370px; 
+   position :absolute;
+   left:240px;
+   top:250px; 
+   border-right: 2px solid grey;
+   padding-right: 60px; 
+   
+}
+  
+.class5{
+    width: 370px; 
+    position :absolute;
+    left:240px;
+    top:390px; 
+    border-right: 2px solid grey;
+    padding-right: 60px;
+    height: 40px;
+}
+
+.class6{
+    width: 420px; 
+    position :absolute;
+    left:240px;
+    top:420px; 
+    border-right: 2px solid grey;
+    padding-right: 10px;
+   
+}
+
+ .class7{
+    width: 420px; 
+    position :absolute;
+    left:240px;
+    top:660px; 
+    border-right: 2px solid grey;
+    padding-right: 10px;
+    height: 210px;
+ }
+
+ .class8{
+    width: 370px; 
+    position :absolute;
+    left:240px;
+    top:870px; 
+    border-right: 2px solid grey;
+    padding-right: 60px; 
+ }
+
+ .class9 {
+    width: 400px; 
+    position :absolute;
+    top: 60px;
+    left:-20px;
+    border-right: 2px solid grey;
+    padding-right: 50px;
+    height: 380px;
+ }
+
+ .class10 {
+    width: 400px; 
+    position :absolute;
+    top:-620px;
+    left:470px;
+    padding-right: 50px;
+    border:2px grey;
+ }
+
+ .class11 { 
+     width: 382px;
+    position :absolute;
+    top:55px;
+    left:-10px;
+    padding-right: 38px;
+    border:2px grey;
+ }
+
+ .class12 { 
+    position :absolute;
+    top:340px;
+    left:3px;
+    padding-right: 50px;
+    border:2px   grey;
+ }
+
+ .class13 {
+     width: 382px;
+    position :absolute;
+    top:60px;
+    left:-10px;
+    padding-right: 30px;
+    border:2px  grey;
+ }
+
+
+h3{
+    color: rgb(92, 86, 86);
+}
+
+h4{
+    padding-left:110px; 
+} 
+
+li{
+    text-align: justify;
+}
+
+input[type="range"]{
+    height:5px;
+    margin: 10px 0;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track{
+    height: 5px;
+    width:100%;
+    cursor: pointer;
+    background: orange;
+    background:linear-gradient
+    (to right orange 50%,  rgb(206, 157, 65)100%);
+    border-radius: 12px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    box-shadow: 1px 1px 1px black;
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+    border-radius: 7px;
+    -webkit-appearance: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: -1px;
+}
